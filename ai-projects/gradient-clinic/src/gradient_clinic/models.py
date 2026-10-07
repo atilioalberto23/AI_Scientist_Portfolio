@@ -66,3 +66,61 @@ class TinyNet(nn.Module):
     def forward(self, x):
 
         return self.network(x).squeeze(1)
+
+
+class MLPClassifier(nn.Module):
+
+    def __init__(
+        self,
+        n_features,
+        hidden_layers,
+        dropout=0.0,
+        batch_norm=True
+    ):
+        super().__init__()
+
+        layers = []
+
+        input_size = n_features
+
+        for hidden_size in hidden_layers:
+
+            layers.append(
+                nn.Linear(
+                    input_size,
+                    hidden_size
+                )
+            )
+
+            if batch_norm:
+                layers.append(
+                    nn.BatchNorm1d(
+                        hidden_size
+                    )
+                )
+
+            layers.append(
+                nn.ReLU()
+            )
+
+            if dropout > 0:
+                layers.append(
+                    nn.Dropout(dropout)
+                )
+
+            input_size = hidden_size
+
+        layers.append(
+            nn.Linear(
+                input_size,
+                1
+            )
+        )
+
+        self.network = nn.Sequential(
+            *layers
+        )
+
+    def forward(self, x):
+
+        return self.network(x).squeeze(1)

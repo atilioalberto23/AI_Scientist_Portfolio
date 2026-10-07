@@ -165,7 +165,8 @@ def prepare_data(
     n_samples=7000,
     n_features=20,
     batch_size=128,
-    seed=42
+    seed=42,
+    train_limit=None
 ):
     """
     Complete data pipeline for Gradient Clinic.
@@ -203,6 +204,21 @@ def prepare_data(
         X_val,
         X_test
     )
+
+    if train_limit is not None:
+
+        if train_limit <= 0:
+            raise ValueError(
+                "train_limit must be greater than zero."
+            )
+
+        if train_limit > len(X_train):
+            raise ValueError(
+                "train_limit cannot exceed training set size."
+            )
+
+        X_train = X_train[:train_limit]
+        y_train = y_train[:train_limit]
 
     train_loader = make_train_loader(
         X_train,

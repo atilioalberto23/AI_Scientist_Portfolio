@@ -9,10 +9,12 @@ data:
   batch_size: 128
 
 model:
-  hidden_1: 64
-  hidden_2: 32
-  dropout_1: 0.20
-  dropout_2: 0.10
+  hidden_layers:
+    - 64
+    - 32
+
+  dropout: 0.10
+  batch_norm: true
 
 training:
   epochs: 30
