@@ -13,7 +13,8 @@ dependencies = [
     "pandas",
     "scikit-learn",
     "torch",
-    "matplotlib"
+    "matplotlib",
+    "pyyaml"
 ]
 
 [tool.setuptools.packages.find]

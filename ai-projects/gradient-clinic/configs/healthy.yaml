@@ -1,0 +1,21 @@
+experiment:
+  name: healthy
+
+seed: 42
+
+data:
+  n_samples: 7000
+  n_features: 20
+  batch_size: 128
+
+model:
+  hidden_1: 64
+  hidden_2: 32
+  dropout_1: 0.20
+  dropout_2: 0.10
+
+training:
+  epochs: 30
+  optimizer: adam
+  learning_rate: 0.001
+  weight_decay: 0.0

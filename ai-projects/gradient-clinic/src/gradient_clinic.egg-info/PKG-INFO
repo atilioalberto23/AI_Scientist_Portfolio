@@ -8,3 +8,4 @@ Requires-Dist: pandas
 Requires-Dist: scikit-learn
 Requires-Dist: torch
 Requires-Dist: matplotlib
+Requires-Dist: pyyaml
