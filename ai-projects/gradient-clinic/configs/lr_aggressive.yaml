@@ -1,0 +1,22 @@
+experiment:
+  name: lr_aggressive
+
+seed: 42
+
+data:
+  n_samples: 7000
+  n_features: 20
+  batch_size: 128
+
+model:
+  hidden_layers:
+    - 64
+    - 32
+  dropout: 0.10
+  batch_norm: true
+
+training:
+  epochs: 40
+  optimizer: adam
+  learning_rate: 0.1
+  weight_decay: 0.0

@@ -1,6 +1,7 @@
 README.md
 pyproject.toml
 src/gradient_clinic/__init__.py
+src/gradient_clinic/config.py
 src/gradient_clinic/data.py
 src/gradient_clinic/diagnostics.py
 src/gradient_clinic/evaluation.py

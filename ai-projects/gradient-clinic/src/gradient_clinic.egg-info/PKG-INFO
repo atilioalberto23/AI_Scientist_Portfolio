@@ -9,3 +9,4 @@ Requires-Dist: scikit-learn
 Requires-Dist: torch
 Requires-Dist: matplotlib
 Requires-Dist: pyyaml
+Requires-Dist: seaborn
