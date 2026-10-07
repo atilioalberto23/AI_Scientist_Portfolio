@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/gradient_clinic/__init__.py
+src/gradient_clinic/data.py
+src/gradient_clinic/diagnostics.py
+src/gradient_clinic/evaluation.py
+src/gradient_clinic/models.py
+src/gradient_clinic/training.py
+src/gradient_clinic.egg-info/PKG-INFO
+src/gradient_clinic.egg-info/SOURCES.txt
+src/gradient_clinic.egg-info/dependency_links.txt
+src/gradient_clinic.egg-info/requires.txt
+src/gradient_clinic.egg-info/top_level.txt
+tests/test_data.py
+tests/test_model.py
