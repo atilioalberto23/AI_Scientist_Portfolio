@@ -4,7 +4,9 @@ from azure.identity import (
 )
 
 
-AZURE_AI_SCOPE = "https://ai.azure.com/.default"
+AZURE_AI_SCOPE = (
+    "https://cognitiveservices.azure.com/.default"
+)
 
 
 def build_credential():
@@ -12,6 +14,7 @@ def build_credential():
 
 
 def build_token_provider():
+
     credential = build_credential()
 
     return get_bearer_token_provider(

@@ -1,0 +1,11 @@
+PROJECT_ENDPOINT:
+https://rg-governed-rag-lab.services.ai.azure.com/api/projects/governed-rag-lab
+
+DEPLOYMENT_NAME:
+gpt-5-mini
+
+REGION:
+westus
+
+FOUNDRY_RESOURCE:
+rg-governed-rag-lab
