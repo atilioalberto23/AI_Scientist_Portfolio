@@ -1,0 +1,27 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/smoke_embeddings.py
+
+===== STDOUT =====
+
+
+====================================
+ AZURE GOVERNED RAG · EMBEDDING TEST
+====================================
+
+Input:
+Corporate credit facilities above USD 5 million require Risk Committee approval.
+
+Embedding dimensions: 1536
+
+First 10 values:
+[-0.025054931640625, 0.059539794921875, 0.0222625732421875, 0.00421142578125, 0.0026035308837890625, 0.016815185546875, 0.006988525390625, 0.0131378173828125, 0.023651123046875, -0.0166778564453125]
+
+✓ Text → embedding path verified.
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 2.347

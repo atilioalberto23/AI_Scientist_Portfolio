@@ -1,0 +1,50 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/evaluate_lexical.py
+
+===== STDOUT =====
+
+
+====================================
+ LEXICAL RETRIEVAL EVALUATION
+====================================
+
+Q001 | R@5=1.00 | P@5=1.00 | 863.2 ms
+Expected: ['POL001']
+Retrieved: ['POL001']
+
+Q002 | R@5=1.00 | P@5=1.00 | 138.7 ms
+Expected: ['POL002']
+Retrieved: ['POL002']
+
+Q003 | R@5=0.00 | P@5=0.00 | 137.8 ms
+Expected: []
+Retrieved: ['POL001']
+
+Q004 | R@5=1.00 | P@5=1.00 | 139.4 ms
+Expected: []
+Retrieved: []
+
+Q005 | R@5=1.00 | P@5=1.00 | 140.6 ms
+Expected: ['POL001']
+Retrieved: ['POL001']
+
+Q006 | R@5=0.00 | P@5=0.00 | 138.9 ms
+Expected: ['POL001']
+Retrieved: []
+
+Q007 | R@5=1.00 | P@5=1.00 | 138.9 ms
+Expected: ['POL001']
+Retrieved: ['POL001']
+
+====================================
+Mean Recall@5: 0.714
+Mean Precision@5: 0.714
+Latency p95: 646.4 ms
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 1.917

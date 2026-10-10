@@ -1,0 +1,38 @@
+[
+  {
+    "id": "POL001-P01-C01",
+    "content": "Corporate credit facilities above USD 5 million require Risk Committee approval.",
+    "title": "Corporate Credit Policy",
+    "doc_id": "POL001",
+    "page": 1,
+    "version": "2026-01",
+    "effective_from": "2026-01-01T00:00:00Z",
+    "effective_to": null,
+    "group_ids": ["risk", "credit"],
+    "source_url": "https://example.local/POL001.pdf"
+  },
+  {
+    "id": "POL002-P03-C01",
+    "content": "Treasury personnel may access intraday liquidity reports.",
+    "title": "Treasury Operations Manual",
+    "doc_id": "POL002",
+    "page": 3,
+    "version": "2026-02",
+    "effective_from": "2026-02-01T00:00:00Z",
+    "effective_to": null,
+    "group_ids": ["treasury"],
+    "source_url": "https://example.local/POL002.pdf"
+  },
+  {
+    "id": "POL003-P04-C01",
+    "content": "Retail credit exceptions require approval from the Credit Risk Manager.",
+    "title": "Retail Credit Exception Policy",
+    "doc_id": "POL003",
+    "page": 4,
+    "version": "2025-05",
+    "effective_from": "2025-05-01T00:00:00Z",
+    "effective_to": "2026-01-01T00:00:00Z",
+    "group_ids": ["risk"],
+    "source_url": "https://example.local/POL003.pdf"
+  }
+]

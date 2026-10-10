@@ -1,0 +1,45 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/run_report_cases.py
+
+===== STDOUT =====
+
+
+====================================
+ GOVERNED RAG REPORT CASES
+====================================
+
+RAG001_AUTHORIZED_RISK: PASS
+  groups: ['risk']
+  expected docs: ['POL001']
+  actual docs: ['POL001']
+  LLM called: True
+
+RAG002_UNAUTHORIZED_RANDOM: PASS
+  groups: ['random-user']
+  expected docs: []
+  actual docs: []
+  LLM called: False
+
+RAG003_TREASURY_DENIED_TO_RISK: FAIL
+  groups: ['risk']
+  expected docs: []
+  actual docs: ['POL001']
+  LLM called: True
+
+RAG004_TREASURY_AUTHORIZED: PASS
+  groups: ['treasury']
+  expected docs: ['POL002']
+  actual docs: ['POL002']
+  LLM called: True
+
+Passed: 3/4
+
+Saved: /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/artifacts/rag_report_cases.json
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 21.305

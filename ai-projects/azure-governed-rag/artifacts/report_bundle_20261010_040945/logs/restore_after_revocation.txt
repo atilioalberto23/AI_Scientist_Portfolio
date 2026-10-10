@@ -1,0 +1,21 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/upload_vector_documents.py
+
+===== STDOUT =====
+
+
+Vectorizing 3 documents...
+
+[1/3] POL001-P01-C01
+[2/3] POL002-P03-C01
+[3/3] POL003-P04-C01
+
+✓ Uploaded: 3/3
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 3.572

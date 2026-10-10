@@ -1,0 +1,27 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/search_text.py
+
+===== STDOUT =====
+
+
+Query:
+What approval is required for a large corporate credit facility?
+
+Security filter:
+(group_ids/any(g: g eq 'risk')) and (effective_from le 2026-10-10T04:08:30.229975Z and (effective_to eq null or effective_to gt 2026-10-10T04:08:30.229975Z))
+
+Authorized results:
+
+[1] Corporate Credit Policy
+    page: 1
+    groups: ['risk', 'credit']
+    content: Corporate credit facilities above USD 5 million require Risk Committee approval.
+
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 2.214
