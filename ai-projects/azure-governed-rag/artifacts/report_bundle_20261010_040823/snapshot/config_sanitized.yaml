@@ -1,0 +1,7 @@
+azure:
+  openai_base_url: https://rg-governed-rag-lab.openai.azure.com/openai/v1/
+  deployment: gpt-5-mini
+  embedding_deployment: text-embedding-3-small
+search:
+  endpoint: https://search-governed-rag-lab.search.windows.net
+  index_name: bank-policies-v2

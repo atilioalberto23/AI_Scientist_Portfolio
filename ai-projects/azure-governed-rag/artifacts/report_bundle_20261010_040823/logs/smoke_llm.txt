@@ -1,0 +1,23 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/smoke_llm.py
+
+===== STDOUT =====
+
+
+====================================
+ AZURE GOVERNED RAG · SMOKE TEST
+====================================
+
+Response:
+AZURE_SLICE_OK
+
+✓ Identity → deployment → inference path verified.
+
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 4.580

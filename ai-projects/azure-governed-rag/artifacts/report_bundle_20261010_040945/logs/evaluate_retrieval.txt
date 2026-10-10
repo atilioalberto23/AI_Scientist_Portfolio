@@ -1,0 +1,71 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/evaluate_retrieval.py
+
+===== STDOUT =====
+
+
+====================================
+ RETRIEVAL BENCHMARK
+====================================
+
+Q001
+  Expected: ['POL001']
+  Lexical:  ['POL001']
+  Vector:   ['POL001']
+  Hybrid:   ['POL001']
+
+Q002
+  Expected: ['POL002']
+  Lexical:  ['POL002']
+  Vector:   ['POL002']
+  Hybrid:   ['POL002']
+
+Q003
+  Expected: []
+  Lexical:  ['POL001']
+  Vector:   ['POL001']
+  Hybrid:   ['POL001']
+
+Q004
+  Expected: []
+  Lexical:  []
+  Vector:   ['POL001']
+  Hybrid:   ['POL001']
+
+Q005
+  Expected: ['POL001']
+  Lexical:  ['POL001']
+  Vector:   ['POL001']
+  Hybrid:   ['POL001']
+
+Q006
+  Expected: ['POL001']
+  Lexical:  []
+  Vector:   ['POL001']
+  Hybrid:   ['POL001']
+
+Q007
+  Expected: ['POL001']
+  Lexical:  ['POL001']
+  Vector:   ['POL001']
+  Hybrid:   ['POL001']
+
+
+====================================
+ SUMMARY
+====================================
+
+Mode            Recall@5    Precision@5     Hit@5      p95 ms
+Lexical            0.714          0.714     0.714       609.6
+Vector             0.714          0.714     0.714       258.5
+Hybrid             0.714          0.714     0.714       175.4
+
+Embedding latency p95: 856.6 ms
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 7.347

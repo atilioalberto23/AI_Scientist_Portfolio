@@ -1,0 +1,45 @@
+[
+  {
+    "id": "Q001",
+    "query": "What approval is required for a corporate credit facility above USD 5 million?",
+    "user_groups": ["risk"],
+    "expected_doc_ids": ["POL001"]
+  },
+  {
+    "id": "Q002",
+    "query": "Who may access intraday liquidity reports?",
+    "user_groups": ["treasury"],
+    "expected_doc_ids": ["POL002"]
+  },
+  {
+    "id": "Q003",
+    "query": "What approval is required for retail credit exceptions?",
+    "user_groups": ["risk"],
+    "expected_doc_ids": []
+  },
+  {
+    "id": "Q004",
+    "query": "Tell me about intraday liquidity reports.",
+    "user_groups": ["risk"],
+    "expected_doc_ids": []
+  },
+  {
+  "id": "Q005",
+  "query": "What approval is required for corporate credit facilities above USD 5 million?",
+  "user_groups": ["risk"],
+  "expected_doc_ids": ["POL001"]
+  },
+  {
+  "id": "Q006",
+  "query": "Who must authorize a large business loan?",
+  "user_groups": ["risk"],
+  "expected_doc_ids": ["POL001"]
+  },
+  {
+  "id": "Q007",
+  "query": "Who authorizes POL001 credit facilities above USD 5M?",
+  "user_groups": ["risk"],
+  "expected_doc_ids": ["POL001"]
+  }
+
+]

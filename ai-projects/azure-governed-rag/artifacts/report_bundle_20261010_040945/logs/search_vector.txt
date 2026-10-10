@@ -1,0 +1,26 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/search_vector.py
+
+===== STDOUT =====
+
+
+====================================
+ VECTOR SEARCH
+====================================
+
+Query: Who needs to authorize a large business loan?
+Groups: ['risk']
+
+[1] Corporate Credit Policy
+    doc_id: POL001
+    score: 0.6523
+    Corporate credit facilities above USD 5 million require Risk Committee approval.
+
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 2.162

@@ -1,0 +1,97 @@
+{
+  "project": "Azure Governed RAG",
+  "generated_at_utc": "2026-10-10T04:10:35.554664+00:00",
+  "executions": [
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/smoke_llm.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 4.169,
+      "log": "smoke_llm.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/smoke_embeddings.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 2.312,
+      "log": "smoke_embeddings.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/search_text.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 2.086,
+      "log": "search_text.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/search_vector.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 2.162,
+      "log": "search_vector.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/search_hybrid.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 2.291,
+      "log": "search_hybrid.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/evaluate_lexical.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 1.917,
+      "log": "evaluate_lexical.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/evaluate_retrieval.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 7.347,
+      "log": "evaluate_retrieval.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/run_report_cases.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 21.272,
+      "log": "run_report_cases.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/test_revocation.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 3.346,
+      "log": "test_revocation.txt"
+    },
+    {
+      "command": [
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python",
+        "/Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/upload_vector_documents.py"
+      ],
+      "return_code": 0,
+      "duration_seconds": 3.572,
+      "log": "restore_after_revocation.txt"
+    }
+  ],
+  "revocation_test_requested": true
+}

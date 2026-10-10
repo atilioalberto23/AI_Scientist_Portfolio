@@ -1,0 +1,11 @@
+{
+  "python": "3.14.8 (main, Sep 30 2026, 17:55:09) [Clang 15.0.0 (clang-1500.3.9.4)]",
+  "platform": "macOS-14.5-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "openai": "3.26.0",
+    "azure-identity": "1.26.0",
+    "azure-search-documents": "12.0.0",
+    "PyYAML": "6.0.3",
+    "numpy": "2.5.3"
+  }
+}

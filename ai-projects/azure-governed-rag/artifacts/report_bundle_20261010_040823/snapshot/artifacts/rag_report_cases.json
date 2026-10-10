@@ -1,0 +1,96 @@
+[
+  {
+    "id": "RAG001_AUTHORIZED_RISK",
+    "question": "Who must authorize a large corporate loan?",
+    "user_groups": [
+      "risk"
+    ],
+    "expected_llm_called": true,
+    "actual_llm_called": true,
+    "expected_doc_ids": [
+      "POL001"
+    ],
+    "actual_doc_ids": [
+      "POL001"
+    ],
+    "retrieval_count": 1,
+    "answer": "The Risk Committee must authorize large corporate loans (corporate credit facilities above USD 5 million) [POL001, p.1].",
+    "sources": [
+      {
+        "doc_id": "POL001",
+        "title": "Corporate Credit Policy",
+        "page": 1,
+        "version": "2026-01",
+        "source_url": "https://example.local/POL001.pdf"
+      }
+    ],
+    "passed": true
+  },
+  {
+    "id": "RAG002_UNAUTHORIZED_RANDOM",
+    "question": "Who must authorize a large corporate loan?",
+    "user_groups": [
+      "random-user"
+    ],
+    "expected_llm_called": false,
+    "actual_llm_called": false,
+    "expected_doc_ids": [],
+    "actual_doc_ids": [],
+    "retrieval_count": 0,
+    "answer": "I don't have authorized and current evidence to answer this question.",
+    "sources": [],
+    "passed": true
+  },
+  {
+    "id": "RAG003_TREASURY_DENIED_TO_RISK",
+    "question": "Who may access intraday liquidity reports?",
+    "user_groups": [
+      "risk"
+    ],
+    "expected_llm_called": false,
+    "actual_llm_called": true,
+    "expected_doc_ids": [],
+    "actual_doc_ids": [
+      "POL001"
+    ],
+    "retrieval_count": 1,
+    "answer": "The available evidence is insufficient.",
+    "sources": [
+      {
+        "doc_id": "POL001",
+        "title": "Corporate Credit Policy",
+        "page": 1,
+        "version": "2026-01",
+        "source_url": "https://example.local/POL001.pdf"
+      }
+    ],
+    "passed": false
+  },
+  {
+    "id": "RAG004_TREASURY_AUTHORIZED",
+    "question": "Who may access intraday liquidity reports?",
+    "user_groups": [
+      "treasury"
+    ],
+    "expected_llm_called": true,
+    "actual_llm_called": true,
+    "expected_doc_ids": [
+      "POL002"
+    ],
+    "actual_doc_ids": [
+      "POL002"
+    ],
+    "retrieval_count": 1,
+    "answer": "Treasury personnel may access intraday liquidity reports. [POL002, p.3]",
+    "sources": [
+      {
+        "doc_id": "POL002",
+        "title": "Treasury Operations Manual",
+        "page": 3,
+        "version": "2026-02",
+        "source_url": "https://example.local/POL002.pdf"
+      }
+    ],
+    "passed": true
+  }
+]

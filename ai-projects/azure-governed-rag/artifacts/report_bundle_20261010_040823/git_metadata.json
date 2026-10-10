@@ -1,0 +1,5 @@
+{
+  "commit": "bd435d7e3ad5f7c3f75ab9bb090bef91f8c9faae",
+  "branch": "feature/azure_governed_rag",
+  "status": "M ../../.gitignore\n M ../../.idea/AI_Scientist_Portfolio.iml\nAM scripts/build_report_bundle.py\nAM scripts/run_report_cases.py\n?? ../../.idea/misc.xml\n?? artifacts/rag_report_cases.json\n?? artifacts/report_bundle_20261010_040823/"
+}

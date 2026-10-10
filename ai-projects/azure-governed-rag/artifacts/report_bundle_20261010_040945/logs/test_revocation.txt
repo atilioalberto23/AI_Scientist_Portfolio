@@ -1,0 +1,21 @@
+$ /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/.venv/bin/python /Users/macbook/PycharmProjects/AI_Scientist_Portfolio/ai-projects/azure-governed-rag/scripts/test_revocation.py
+
+===== STDOUT =====
+
+
+Before revocation:
+['POL001']
+
+After revocation:
+[]
+
+✓ Revocation propagated successfully.
+
+
+===== STDERR =====
+
+
+
+===== EXECUTION =====
+return_code: 0
+duration_seconds: 3.346
